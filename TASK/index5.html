@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="b.png">
+
+    <title>FORM</title>
+    <style>
+        .container{
+    height: 100px;
+    width: 1500px;
+    border:2px solid white;
+    background-color: black;
+    
+    /* position: sticky;
+    top:0;    */
+}
+center{
+    align-content: center;
+    color:aliceblue;
+    font-size: 25px;
+    
+}
+.container2{
+    height: 50px;
+    width: 1450px;
+    border:2px solid white;
+    background-color: black;
+    color:aliceblue;
+    display:flex;
+    padding-left: 50px;
+    font-size: 20px;
+    padding-top: 15px;
+    font-family: forte;
+    position: sticky;
+    top:0px;
+    
+}
+a:link{
+    color:aliceblue
+}
+
+.box1{
+    height: 20px;
+    width:50px;
+   
+    
+
+}
+.box2{
+    height: 20px;
+    width:60px;
+   
+    padding-left: 20px;
+
+}
+.box3{
+    height: 20px;
+    width:50px;
+    
+    padding-left: 20px;
+
+}
+.box4{
+    height: 20px;
+    width:70px;
+    
+    padding-left: 20px;
+
+}.box5{
+    height: 20px;
+    width:50px;
+   
+    padding-left: 20px;
+
+}
+
+
+
+
+
+.class{
+    width: 1500px;
+    height: 900px;
+    border:2px solid black;
+    background-image: url('/form1.png');
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    
+}
+.container0 {
+    width:500px;
+    height:650px;
+    border: 2px solid black;
+    margin: 100px;
+    padding : 30px;
+    border: 1px solid #7d7d7d;
+   margin-left: 50px;
+    background-color: #dfdeda;
+    border-radius: 10px;
+
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  form{
+    text-align: center;
+    
+  }
+  #name{
+        border-radius: 4px;
+        width:300px;
+        height:20px;
+  }
+  #email{
+    border-radius: 4px;
+    width:300px;
+    height:20px;
+  }
+  #address{
+    border-radius: 4px;
+    width:300px;
+    height:20px;
+  }
+  #number{
+    border-radius: 4px;
+    width:300px;
+    height:20px;
+  }
+  #feedback{
+    border-radius: 4px;
+    width:300px;
+    height:90px;
+    
+  }
+
+
+ 
+  .button {
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 6px #999;
+}
+
+.button:hover {background-color: #44c449}
+
+.button:active {
+  background-color: #55ea5a;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <center>
+        <h1 > Bon Appétit </h1>
+        </center>
+     </div>
+   <div class="container2">
+    
+    <div class="box1">
+        <a href="home.html" > Home</a> </div>
+    <div class="box2">
+       <a href="index2.html"> Orders</a> </div>
+    <div class="box3">
+       <a href="index3.html"> About </a> </div>
+    <div class="box4">
+       <a href="index4.html"> Contact </a> </div>
+    <div class="box5">
+       <a href="index5.html">Form </a> </div>
+
+   </div>
+
+
+
+   <div class="class">
+    
+  <div class="container0" >
+    <h2>TO ORDER!!</h2><br>
+
+
+    <form action="index6.html" >
+      <label id="name"></label>
+      <input type="text" id="name" name="name" placeholder="Enter Name"><i class="material-icons">&#xe7fd;</i><br><br>
+      <label id="email"></label>
+      <input type="email" id="email" name="email" placeholder="Enter email" required><i class="material-icons">&#xe0be;</i><br><br>
+      <input type="number" id="number" name="pno" placeholder="Enter phone number" required><i class="material-icons">&#xe551;</i><br><br>
+      <input type="address" id="address" name="address" placeholder="Enter delivery address" required><i class="material-icons">&#xe0c8;</i><br><br>
+      <input type="feedback" id="feedback" name="feedback" placeholder="Feedback" required><br>
+      <i class="material-icons" style="font-size:20px;color:gold">star</i>
+      <i class="material-icons" style="font-size:20px;color:gold">star</i>
+      <i class="material-icons" style="font-size:20px;color:gold">star</i>
+      <i class="material-icons" style="font-size:20px;color:gold">star</i>
+      <i class="material-icons" style="font-size:20px;color:gold">star</i><br><br>
+      <label><b>Choose your order:</b></label>
+      <select type="dish" name="dish">
+        <option value="Select">Select</option>
+        <option >Pork chops</option>
+        <option>Caju chicken</option>
+        <option>Chicken thighs</option>
+        <option>Shrimp</option>
+        <option>Prawn</option>
+        <option>Tofu burger</option>
+        <option>Icecream</option>
+        <option>Cookies</option>
+        <option>Milk shake</option>
+      </select>
+      <br><br>
+      <label><b>Choose payment method:</b> </label><br>
+      <input type="checkbox" id="payment" name="payment">
+      <lable>Google wallet<i style="font-size:24px" class="fa">&#xf1ee;</i></lable><br>
+      <input type="checkbox" id="payment" name="payment">
+      <lable>Paypal<i style="font-size:24px" class="fa">&#xf1f4;</i></lable><br>
+      <input type="checkbox" id="payment" name="payment">
+      <lable>Visa<i style="font-size:24px" class="fa">&#xf1f0;</i></lable><br>
+      <input type="checkbox" id="payment" name="payment">
+      <lable>Credit card<i style="font-size:24px" class="fa">&#xf09d;</i></lable><br><br>
+      <button class="button" onclick="alert('Thanks for Ordering!!!')" value="Click Me!">ORDER</button>
+ 
+    </form>
+
+  </div>
+
+   </div>
+</body>
+</html>

@@ -1,0 +1,374 @@
+.container{
+    height: 100px;
+    width: 1500px;
+    border:2px solid white;
+    background-color: black;
+    
+    /* position: sticky;
+    top:0;    */
+}
+center{
+    align-content: center;
+    color:aliceblue;
+    font-size: 25px;
+    
+}
+.container2{
+    height: 50px;
+    width: 1450px;
+    border:2px solid white;
+    background-color: black;
+    color:aliceblue;
+    display:flex;
+    padding-left: 50px;
+    font-size: 20px;
+    padding-top: 15px;
+    font-family: forte;
+    position: sticky;
+    top:0px;
+    
+}
+a:link{
+    color:aliceblue
+}
+
+.box1{
+    height: 20px;
+    width:50px;
+   
+    
+
+}
+.box2{
+    height: 20px;
+    width:60px;
+   
+    padding-left: 20px;
+
+}
+.box3{
+    height: 20px;
+    width:50px;
+    
+    padding-left: 20px;
+
+}
+.box4{
+    height: 20px;
+    width:70px;
+    
+    padding-left: 20px;
+
+}.box5{
+    height: 20px;
+    width:50px;
+   
+    padding-left: 20px;
+
+}
+
+
+.container3{
+    height: 500px;
+    width:1500px;
+    border: 2px ;
+    background-image: url('/burger.gif');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 1100px;
+
+}
+.co1{
+    height:470px;
+    width:490px;
+    
+    margin-left:980px;
+    background-color: rgb(251, 245, 237);
+    border-radius: 30px;
+    
+    padding: 15px;
+
+} 
+
+.container4{
+    height: 150px;
+    width:1500px;
+    border: 2px ;
+   
+   
+   
+
+}
+.container5{
+    height: 1150px;
+    width:1500px;
+    border:2px ;
+    position: absolute;
+    display: flex;
+    padding-top: 10px;
+    flex-wrap: wrap;
+}
+.co41{
+    height: 400px;
+    width:400px;
+   
+    margin-left: 30px;
+    
+    
+}
+.co42{
+    height: 400px;
+    width:400px;
+   
+    margin-left: 100px;
+    
+    
+}
+.co43{
+    height: 400px;
+    width:400px;
+  
+    margin-left: 120px;
+    
+}
+
+.co44{
+    height: 400px;
+    width:400px;
+   
+    margin-left: 30px;
+    margin-top: 80px;
+    
+}
+
+.co45{
+    height: 400px;
+    width:400px;
+   
+    margin-left: 100px;
+    margin-top: 80px;
+    
+}
+
+.co46{
+    height: 400px;
+    width:400px;
+   
+    margin-left: 120px;
+    margin-top: 80px;
+}
+.co47{
+    height: 400px;
+    width:400px;
+   
+    margin-left: 30px;
+    
+
+}
+.co48{
+    height: 400px;
+    width:400px;
+   
+    margin-left: 100px;
+
+}
+.co49{
+    height: 400px;
+    width:400px;
+  
+    margin-left: 120px;
+    
+
+}
+img:hover{
+    transform: scale(1.1);
+}
+
+
+.css{
+    width:1500px;
+    height: 700px;
+    border:2px solid black;
+    background-image: url('/pic3.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.container6{
+    height: 1500px;
+    width:1450px;
+    border:2px solid black;
+    position: absolute;
+    display: flex;
+    padding-left:50px;
+    
+    flex-wrap: wrap;
+
+}
+#order1{
+     margin-left: 90px;
+    margin-top: 20px;
+    padding-left:30px;
+    padding-right:30px;
+
+    width: 140px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: rgb(253, 253, 253);
+    cursor: pointer;
+}
+.contain1{
+    width:600px;
+    height: 350px;
+    border:2px  ;
+    margin-left: 50px;
+    background-image: url('/chicken1.gif');
+    background-repeat: no-repeat;
+    background-size: 600px;
+}
+.contain2{
+    width:600px;
+    height: 350px;
+    border:2px ;
+    margin-left: 700px;
+    background-image: url('/chicken2.gif');
+    background-repeat: no-repeat;
+    background-size: 600px;
+
+}
+#scroll-container {
+    border: 3px solid ;
+    border-radius: 5px;
+    overflow: hidden;
+    
+  }
+  
+  #scroll-text {
+    text-align: right;
+    color: black;
+   
+  
+    /* animation properties */
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    
+    -moz-animation: my-animation 20s linear infinite;
+    -webkit-animation: my-animation 20s linear infinite;
+    animation: my-animation 20s linear infinite;
+  }
+  
+  /* for Firefox */
+  @-moz-keyframes my-animation {
+    from { -moz-transform: translateX(-100%); }
+    to { -moz-transform: translateX(100%); }
+  }
+  
+  /* for Chrome */
+  @-webkit-keyframes my-animation {
+    from { -webkit-transform: translateX(-100%); }
+    to { -webkit-transform: translateX(100%); }
+  }
+  
+  @keyframes my-animation {
+    from {
+      -moz-transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+    to {
+      -moz-transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+    }
+  }
+
+
+
+
+  .contain30{
+    height: 130px;
+    width:1500px;
+    border: 2px ;
+   
+  }
+
+
+
+
+
+
+
+.contain3{
+    width: 1500px;
+    height: 1700px;
+    border:2px ;
+    display: flex;
+    padding-top: 10px;
+    flex-wrap: wrap;
+}
+
+#co{
+    margin-left: 80px;
+}
+
+#coo{
+    margin-left: 80px;
+}
+#cooo{
+    margin-left: 80px;
+}
+
+
+
+  
+  .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 6px #999;
+  }
+  
+
+
+  .button:hover {background-color: #44c449}
+
+  .button:active {
+    background-color: #55ea5a;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+
+
+
+  img:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
